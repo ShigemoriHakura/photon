@@ -27,15 +27,15 @@
 // --------
 
 // how long the peel motor will peel film per tenth mm of tape requested to be driven
-#define PEEL_TIME_PER_TENTH_MM 18
+#define PEEL_TIME_PER_TENTH_MM 21
 // how long the peel motor will peel film during backwards movements per tenth mm of tape requested to be driven
-#define BACKWARDS_PEEL_TIME_PER_TENTH_MM 30
+#define BACKWARDS_PEEL_TIME_PER_TENTH_MM 35
 // short amount of time peel motor moves backwards to reduce tension on film after peeling
-#define PEEL_BACKOFF_TIME 30
+#define PEEL_BACKOFF_TIME 35
 // amount of time we allow for each tenth mm before timeout (in ms)
-#define TIMEOUT_TIME_PER_TENTH_MM 40
+#define TIMEOUT_TIME_PER_TENTH_MM 46
 // after driving backwards, how long do we peel to take up any potential slack in the film
-#define BACKWARDS_FEED_FILM_SLACK_REMOVAL_TIME 350
+#define BACKWARDS_FEED_FILM_SLACK_REMOVAL_TIME 405
 
 // Unit Tests Fail Because This Isn't Defined In ArduinoFake for some reason
 #ifndef INPUT_ANALOG
